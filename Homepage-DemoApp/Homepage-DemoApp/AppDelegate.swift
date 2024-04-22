@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Homepage-DemoApp
-//
-//  Created by Phillips, Robin on 22/04/2024.
-//
-
 import UIKit
 
 @main

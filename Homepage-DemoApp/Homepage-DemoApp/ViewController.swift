@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Homepage-DemoApp
-//
-//  Created by Phillips, Robin on 22/04/2024.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -12,8 +5,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .systemMint
+        let label = UILabel()
+        label.text = "Homepage"
+        label.textColor = .systemBackground
+        label.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(label)
+        
+        NSLayoutConstraint.activate([
+            view.safeAreaLayoutGuide.centerXAnchor.constraint(equalTo: label.centerXAnchor),
+            view.safeAreaLayoutGuide.centerYAnchor.constraint(equalTo: label.centerYAnchor)
+        ])
     }
-
-
 }
 
