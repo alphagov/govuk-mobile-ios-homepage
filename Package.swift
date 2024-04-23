@@ -10,7 +10,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "govuk-mobile-ios-homepage",
-            targets: ["Homepage"]),
+            targets: ["Homepage"])
     ],
 //    dependencies: [
 //        .package(url: "https://github.com/govuk-one-login/mobile-ios-common", branch: "main"),
@@ -32,6 +32,6 @@ let package = Package(
         .testTarget(
             name: "HomepageTests",
             dependencies: ["Homepage"],
-            path: "Homepage/Tests/HomepageTests"),
+            path: "Homepage/Tests/HomepageTests")
     ]
 )
