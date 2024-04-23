@@ -3,7 +3,7 @@ name: iOS Pull Request
 on:
   pull_request:
     types: [ opened, reopened, synchronize, ready_for_review ]
-    branches: [ main ]
+    branches: [ develop ]
     
 concurrency: 
   group: ${{ github.workflow }}-${{ github.ref }}
