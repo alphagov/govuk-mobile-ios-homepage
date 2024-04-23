@@ -36,7 +36,7 @@ jobs:
           
       - name: Build and Test
         run: |
-          xcodebuild -workspace "Homepage-DemoApp.xcworkspace" -scheme Homepage-DemoApp test \
+          xcodebuild -workspace "Homepage.xcworkspace" -scheme Homepage-DemoApp test \
            -destination "platform=iOS Simulator,name=iPhone 14,OS=latest" \
            -enableCodeCoverage YES -resultBundlePath result.xcresult
            
