@@ -1,0 +1,12 @@
+import XCTest
+@testable import govuk_mobile_ios_homepage
+
+final class govuk_mobile_ios_homepageTests: XCTestCase {
+    func testExample() throws {
+        // XCTest Documentation
+        // https://developer.apple.com/documentation/xctest
+
+        // Defining Test Cases and Test Methods
+        // https://developer.apple.com/documentation/xctest/defining_test_cases_and_test_methods
+    }
+}
