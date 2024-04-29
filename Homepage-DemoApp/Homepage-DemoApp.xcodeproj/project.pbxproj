@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		961E17D92BD68A7B00284FB8 /* govuk-mobile-ios-homepage in Frameworks */ = {isa = PBXBuildFile; productRef = 961E17D82BD68A7B00284FB8 /* govuk-mobile-ios-homepage */; };
+		5D2129E82BDF9AE300142E46 /* Homepage in Frameworks */ = {isa = PBXBuildFile; productRef = 5D2129E72BDF9AE300142E46 /* Homepage */; };
 		967F48452BD6865C0028346A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F48442BD6865C0028346A /* AppDelegate.swift */; };
 		967F48472BD6865C0028346A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F48462BD6865C0028346A /* SceneDelegate.swift */; };
 		967F48492BD6865C0028346A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F48482BD6865C0028346A /* ViewController.swift */; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961E17D92BD68A7B00284FB8 /* govuk-mobile-ios-homepage in Frameworks */,
+				5D2129E82BDF9AE300142E46 /* Homepage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +152,7 @@
 			);
 			name = "Homepage-DemoApp";
 			packageProductDependencies = (
-				961E17D82BD68A7B00284FB8 /* govuk-mobile-ios-homepage */,
+				5D2129E72BDF9AE300142E46 /* Homepage */,
 			);
 			productName = "Homepage-DemoApp";
 			productReference = 967F48412BD6865C0028346A /* Homepage-DemoApp.app */;
@@ -627,9 +627,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		961E17D82BD68A7B00284FB8 /* govuk-mobile-ios-homepage */ = {
+		5D2129E72BDF9AE300142E46 /* Homepage */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = "govuk-mobile-ios-homepage";
+			productName = Homepage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

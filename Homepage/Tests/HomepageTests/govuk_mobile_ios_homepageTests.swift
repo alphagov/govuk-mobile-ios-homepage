@@ -1,5 +1,5 @@
 import XCTest
-@testable import govuk_mobile_ios_homepage
+@testable import Homepage
 
 final class govuk_mobile_ios_homepageTests: XCTestCase {
     func testExample() throws {

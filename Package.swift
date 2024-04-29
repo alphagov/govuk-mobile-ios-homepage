@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "govuk-mobile-ios-homepage",
+    name: "Homepage",
     platforms: [.iOS(.v14)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "govuk-mobile-ios-homepage",
+            name: "Homepage",
             targets: ["Homepage"])
     ],
 //    dependencies: [
