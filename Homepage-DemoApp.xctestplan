@@ -29,6 +29,13 @@
         "identifier" : "967F48602BD6865D0028346A",
         "name" : "Homepage-DemoAppUITests"
       }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..",
+        "identifier" : "HomepageTests",
+        "name" : "HomepageTests"
+      }
     }
   ],
   "version" : 1
